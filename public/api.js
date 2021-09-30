@@ -23,8 +23,8 @@
 
     // call api
     console.log(typeof digitsValue);
-    const url = `https://pi-spigot.herokuapp.com/pi/${digitsValue}`;
-    const urlCircum = `https://pi-spigot.herokuapp.com/circum`;
+    const url = `https://circumference-sun.herokuapp.com/pi/${digitsValue}`;
+    const urlCircum = `https://circumference-sun.herokuapp.com/circum`;
     const btnCalculatePi = document.getElementById("btnCalculatePi");
     btnCalculatePi.disabled = true;
     console.log("Start call api pi.");
